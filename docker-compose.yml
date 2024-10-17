@@ -1,0 +1,11 @@
+services:
+
+  app:
+    image: niruix/sshwifty:0.3.14-beta-release
+    restart: unless-stopped
+    networks:
+      frontend:
+
+networks:
+  frontend:
+

@@ -8,4 +8,6 @@ services:
 
 networks:
   frontend:
+    name: proxy_frontend
+    external: true
 

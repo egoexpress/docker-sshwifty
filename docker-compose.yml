@@ -1,7 +1,7 @@
 services:
 
   app:
-    image: niruix/sshwifty:0.4.10-beta-release
+    image: niruix/sshwifty:0.4.11-beta-release
     restart: unless-stopped
     networks:
       frontend:
